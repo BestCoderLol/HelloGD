@@ -6,6 +6,7 @@ public class HelloGD {
     public static void main(String[] args) {
         System.out.println("Hello I am GD");
         Scanner sc = new Scanner(System.in);
+        sc.useDelimiter("\n");
         String tx = sc.next();
         System.out.println("Deine Antwort war : "+tx);
         String tx1 = sc.next();
