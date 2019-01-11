@@ -13,7 +13,11 @@ public class HelloGD {
         System.out.println("was machst du eig. gerade");
         String tx2 = sc.next();
         System.out.println("ok cool");
-
+        if (tx2.equalsIgnoreCase("programmieren")) {
+            System.out.println("hax ist der beste developer");
+        } else {
+            System.out.println("Fortnite ist müll");
+        }
 
     }
 }
